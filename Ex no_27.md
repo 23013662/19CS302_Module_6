@@ -14,7 +14,6 @@ To write a C program that demonstrates the use of typedef to create a new alias 
 
 5.End 
  
-
 ## Program:
 ```
 /*
