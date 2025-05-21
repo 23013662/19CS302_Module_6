@@ -40,10 +40,10 @@ int main()
     list = (float *)realloc(list, 5 * sizeof(float));
     if (list == NULL)
     {
-
         printf("Memory reallocation failed.\n");
         return 1;
     }
+
     list[3] = 20.21;
     list[4] = 32.67;
     printf("Result\n");
