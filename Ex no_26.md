@@ -33,6 +33,7 @@ int main() {
  emp2 = (struct Employee*)malloc(sizeof(struct Employee));
  emp3 = (struct Employee*)malloc(sizeof(struct Employee));
  emp1->empID = 1;
+
  snprintf(emp1->name, sizeof(emp1->name), "John Doe");
  emp1->manager = NULL; 
  emp2->empID = 2;
