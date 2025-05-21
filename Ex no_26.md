@@ -13,7 +13,6 @@ To write a C program to demonstrate a self-referential structure where an employ
 4.Print employee details using printf().
 
 5.Free allocated memory and End. 
- 
 ## Program:
 ```
 /*
@@ -33,7 +32,6 @@ int main() {
  emp2 = (struct Employee*)malloc(sizeof(struct Employee));
  emp3 = (struct Employee*)malloc(sizeof(struct Employee));
  emp1->empID = 1;
-
  snprintf(emp1->name, sizeof(emp1->name), "John Doe");
  emp1->manager = NULL; 
  emp2->empID = 2;
