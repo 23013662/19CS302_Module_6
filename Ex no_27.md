@@ -21,6 +21,7 @@ C program that demonstrates the use of typedef to create a new alias name for a 
 Developed by: 
 RegisterNumber:  
 */
+
 #include <stdio.h>
 typedef int MyInt;
 int main() {
